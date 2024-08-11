@@ -525,4 +525,142 @@ exceptional care for Appendix patients
     return ob_get_clean(); // Return the buffered content
 }
 add_shortcode('appendix_doctors', 'appendix_doctors_shortcode');
+// urology hero button mobile 
+// 
+function urology_hero_mobile_call_button_shortcode() {
+    ob_start(); 
+    ?>
+    <style>
+    /* Ensure the button styles apply across all screen sizes */
+    .urology-hero-mobile-call-button.cutsom-button {
+        font-weight: 500;
+        border-radius: 65px;
+        padding: 15px 20px;        
+        color: white;
+        border: none; 
+        cursor: pointer;
+        display: inline-block; 
+        text-align: center; 
+    }
+
+    .urology-hero-mobile-call-button.cutsom-button a {
+        color: white;
+        text-decoration: none; 
+        display: block; 
+        width: 100%;
+        height: 100%;
+    }
+    </style>
+
+    <button class="urology-hero-mobile-call-button cutsom-button" id="ct-button">
+        <a href="tel:07969084442" class="call-button">Get Free Consultation</a>
+    </button>
+    <?php
+    return ob_get_clean(); 
+}
+add_shortcode('urology_hero_mobile_call_button', 'urology_hero_mobile_call_button_shortcode');
+
+// urology doctor profile button mobile 
+// 
+function urology_profile_mobile_call_button_shortcode() {
+    ob_start(); 
+    ?>
+    <style>
+    .urology-hero-mobile-call-button.cutsom-button {
+        font-weight: 500;
+        border-radius: 65px;
+        padding: 15px 20px;        
+        color: white;
+        border: none; 
+        cursor: pointer;
+        display: inline-block; 
+        text-align: center; 
+    }
+
+    .urology-hero-mobile-call-button.cutsom-button a {
+        color: white;
+        text-decoration: none; 
+        display: block; 
+        width: 100%;
+        height: 100%;
+    }
+    </style>
+
+    <button class="urology-hero-mobile-call-button cutsom-button" id="ct-button">
+        <a href="tel:07969084442" class="call-button">Know more</a>
+    </button>
+    <?php
+    return ob_get_clean(); 
+}
+add_shortcode('urology_profile_mobile_call_button', 'urology_profile_mobile_call_button_shortcode');
+
+
+// urology video  button mobile 
+// 
+function urology_video_mobile_call_button_shortcode() {
+    ob_start(); 
+    ?>
+    <style>
+    .urology-hero-mobile-call-button.cutsom-button {
+        font-weight: 500;
+        border-radius: 65px;
+        padding: 15px 20px;        
+        color: white;
+        border: none; 
+        cursor: pointer;
+        display: inline-block; 
+        text-align: center; 
+    }
+
+    .urology-hero-mobile-call-button.cutsom-button a {
+        color: white;
+        text-decoration: none; 
+        display: block; 
+        width: 100%;
+        height: 100%;
+    }
+    </style>
+
+    <button class="urology-hero-mobile-call-button cutsom-button" id="ct-button">
+        <a href="tel:07969084442" class="call-button">Get Quote</a>
+    </button>
+    <?php
+    return ob_get_clean(); 
+}
+add_shortcode('urology_video_mobile_call_button', 'urology_video_mobile_call_button_shortcode');
+
+
+// urology treatment  button mobile 
+// 
+function urology_treatment_mobile_call_button_shortcode() {
+    ob_start(); 
+    ?>
+    <style>
+    .urology-hero-mobile-call-button.cutsom-button {
+        font-weight: 500;
+        border-radius: 65px;
+        padding: 15px 20px;        
+        color: white;
+        border: none; 
+        cursor: pointer;
+        display: inline-block; 
+        text-align: center; 
+    }
+
+    .urology-hero-mobile-call-button.cutsom-button a {
+        color: white;
+        text-decoration: none; 
+        display: block; 
+        width: 100%;
+        height: 100%;
+    }
+    </style>
+
+    <button class="urology-hero-mobile-call-button cutsom-button" id="ct-button">
+        <a href="tel:07969084442" class="call-button">Talk to urology expert</a>
+    </button>
+    <?php
+    return ob_get_clean(); 
+}
+add_shortcode('urology_treatment_mobile_call_button', 'urology_treatment_mobile_call_button_shortcode');
 
