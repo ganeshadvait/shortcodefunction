@@ -664,3 +664,140 @@ function urology_treatment_mobile_call_button_shortcode() {
 }
 add_shortcode('urology_treatment_mobile_call_button', 'urology_treatment_mobile_call_button_shortcode');
 
+// Hernia hero  button mobile 
+// 
+function hernia_hero_mobile_call_button_shortcode() {
+    ob_start(); 
+    ?>
+    <style>
+    .hernia-hero-mobile-call-button.cutsom-button {
+        font-weight: 500;
+        border-radius: 65px;
+        padding: 15px 20px;        
+        color: white;
+        border: none; 
+        cursor: pointer;
+        display: inline-block; 
+        text-align: center; 
+    }
+
+    .hernia-hero-mobile-call-button.cutsom-button a {
+        color: white;
+        text-decoration: none; 
+        display: block; 
+        width: 100%;
+        height: 100%;
+    }
+    </style>
+
+    <button class="hernia-hero-mobile-call-button cutsom-button" id="ct-button">
+        <a href="tel:07969084449" class="call-button">Get Free Consultation</a>
+    </button>
+    <?php
+    return ob_get_clean(); 
+}
+add_shortcode('hernia_hero_mobile_call_button', 'hernia_hero_mobile_call_button_shortcode');
+
+
+// Hernia profile button mobile 
+// 
+function hernia_profile_mobile_call_button_shortcode() {
+    ob_start(); 
+    ?>
+    <style>
+    .hernia-hero-mobile-call-button.cutsom-button {
+        font-weight: 500;
+        border-radius: 65px;
+        padding: 15px 20px;        
+        color: white;
+        border: none; 
+        cursor: pointer;
+        display: inline-block; 
+        text-align: center; 
+    }
+
+    .hernia-hero-mobile-call-button.cutsom-button a {
+        color: white;
+        text-decoration: none; 
+        display: block; 
+        width: 100%;
+        height: 100%;
+    }
+    </style>
+
+    <button class="hernia-hero-mobile-call-button cutsom-button" id="ct-button">
+        <a href="tel:07969084449" class="call-button">Know more</a>
+    </button>
+    <?php
+    return ob_get_clean(); 
+}
+add_shortcode('hernia_profile_mobile_call_button', 'hernia_profile_mobile_call_button_shortcode');
+
+
+// Hernia video button mobile 
+// 
+function hernia_video_mobile_call_button_shortcode() {
+    ob_start(); 
+    ?>
+    <style>
+    .hernia-hero-mobile-call-button.cutsom-button {
+        font-weight: 500;
+        border-radius: 65px;
+        padding: 15px 20px;        
+        color: white;
+        border: none; 
+        cursor: pointer;
+        display: inline-block; 
+        text-align: center; 
+    }
+
+    .hernia-hero-mobile-call-button.cutsom-button a {
+        color: white;
+        text-decoration: none; 
+        display: block; 
+        width: 100%;
+        height: 100%;
+    }
+    </style>
+
+    <button class="hernia-hero-mobile-call-button cutsom-button" id="ct-button">
+        <a href="tel:07969084449" class="call-button">Get Quote</a>
+    </button>
+    <?php
+    return ob_get_clean(); 
+}
+add_shortcode('hernia_video_mobile_call_button', 'hernia_video_mobile_call_button_shortcode');
+
+// Hernia treatment button mobile 
+// 
+function hernia_treatment_mobile_call_button_shortcode() {
+    ob_start(); 
+    ?>
+    <style>
+    .hernia-hero-mobile-call-button.cutsom-button {
+        font-weight: 500;
+        border-radius: 65px;
+        padding: 15px 20px;        
+        color: white;
+        border: none; 
+        cursor: pointer;
+        display: inline-block; 
+        text-align: center; 
+    }
+
+    .hernia-hero-mobile-call-button.cutsom-button a {
+        color: white;
+        text-decoration: none; 
+        display: block; 
+        width: 100%;
+        height: 100%;
+    }
+    </style>
+
+    <button class="hernia-hero-mobile-call-button cutsom-button" id="ct-button">
+        <a href="tel:07969084449" class="call-button">Talk to General Surgery Expert</a>
+    </button>
+    <?php
+    return ob_get_clean(); 
+}
+add_shortcode('hernia_treatment_mobile_call_button', 'hernia_treatment_mobile_call_button_shortcode');
