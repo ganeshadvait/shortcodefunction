@@ -28,7 +28,7 @@ function best_surgeons_shortcode() {
     ?>
     <div class="best-surgeons">
         <h5>Best Surgeons & Equipment</h5>
-        <p>Lux Hospitals have top-notch Hernia experts with the latest and advanced Stryker 1688 4K Laparoscopic setup.</p>
+        <p>Lux Hospitals have top-notch experts with the latest and advanced Stryker 1688 4K Laparoscopic setup.</p>
     </div>
     <?php
     return ob_get_clean(); // Return the buffered content
@@ -40,7 +40,7 @@ function free_consultation_shortcode() {
     ?>
     <div class="free-consultation">
         <h5>Get FREE Consultation</h5>
-        <p>Now Lux Hospitals offer free consultation with our Hernia expert. Call us and avail Free OPD Now.</p>
+        <p>Now Lux Hospitals offer free consultation with our expert. Call us and avail Free OPD Now.</p>
     </div>
     <?php
     return ob_get_clean(); // Return the buffered content
@@ -801,3 +801,12 @@ function hernia_treatment_mobile_call_button_shortcode() {
     return ob_get_clean(); 
 }
 add_shortcode('hernia_treatment_mobile_call_button', 'hernia_treatment_mobile_call_button_shortcode');
+
+					function hide_bot() {
+    if (is_singular('e-landing-page')) { // Correcting the post type
+        echo '<style>#bizbot-widget { display: none !important; }</style>';
+    } else {
+        echo '<style>#bizbot-widget { display: block; }</style>';
+    }
+}
+
